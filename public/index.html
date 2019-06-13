@@ -79,6 +79,14 @@
           </oj-chart-item>
         </template>
       </oj-chart>
+      <oj-button id='bt1' on-oj-action='[[getLocation]]'>Location</oj-button>
+      <br/><br/>
+      <p id="lat" class="bold">Latitude: 
+          <span id="r1"><oj-bind-text value="[[latitude]]"></oj-bind-text></span>
+      </p>
+      <p id="lon" class="bold">Longitude: 
+          <span id="r2"><oj-bind-text value="[[longitude]]"></oj-bind-text></span>
+      </p>
     </div>
   </div>
 
